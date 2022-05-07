@@ -1,0 +1,87 @@
+@import url('color.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--unnamed-color-f3f3f3);
+}
+
+.stripe {
+  background-color: var(--primaryColor);
+  height: 201px;
+}
+
+.wrapper {
+  margin: auto auto 50px;
+  max-width: 450px;
+}
+
+.wrapper > .card {
+  background-color: var(--secondaryColor);
+  margin-top: -154px;
+
+  box-shadow: 0px 3px 30px var(--shadow);
+
+  height:155px;
+}
+
+.wrapper > .card > .card-body .card-title {
+  color: var(--primaryColor);
+  letter-spacing: 0px;
+
+  text-align: center;
+
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.wrapper > .card > .card-body > .card-title p {
+  color: var(--quartenaryColor);
+
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.wrapper > .card > .card-body > .info {
+  max-width: 355px;
+  margin: 0 auto;
+}
+
+.wrapper > .card > .card-body > .info h5 {
+  color: var(--primaryColor);
+  letter-spacing: 0px;
+
+  text-align: center;
+
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.wrapper > .card > .card-body > .info p {
+  color: var(--quartenaryColor);
+
+  letter-spacing: 0px;
+  text-align: center;
+
+  font-size: 11px;
+}
+
+
+@media (max-width: 450px) {
+  .wrapper {
+    padding: 4px;
+  }
+
+  .wrapper > .card {
+    margin-top: -158px;
+  }
+
+  .wrapper > .card > .card-body .card-title {
+    font-size: 22px;
+  }
+}
+
