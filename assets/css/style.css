@@ -1,4 +1,6 @@
 @import url('color.css');
+@import url('form.css');
+@import url('progress.css');
 
 * {
   box-sizing: border-box;
@@ -25,9 +27,10 @@ body {
   background-color: var(--secondaryColor);
   margin-top: -154px;
 
-  box-shadow: 0px 3px 30px var(--shadow);
+  /* box-shadow: 0px 3px 30px var(--shadow); */
 
   height:155px;
+  border: none;
 }
 
 .wrapper > .cardPlan > .card > .card-body .card-title, 
@@ -87,6 +90,7 @@ body {
 
   padding-top: 12px;
 }
+
 
 @media (max-width: 450px) {
   .wrapper {

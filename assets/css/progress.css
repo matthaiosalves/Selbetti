@@ -1,0 +1,49 @@
+.bg-selbetti {
+  background-color: var(--primaryColor);
+}
+
+.wrapper > .field > .card > .card-body > .progressForm > .progress {
+  height: 3px;
+  max-width: 356px;
+  margin: 0 auto;
+  background-color: var(--quartenaryColor);
+}
+
+.wrapper > .field > .card > .card-body > .progressForm .progress .wrapperMarker .wrapperBall {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper > .field > .card > .card-body > .progressForm .progress .wrapperMarker .wrapperBall .ballMarkerOne {
+  width: 15px;
+  height: 15px;
+
+  background-color: var(--primaryColor);
+  border-radius: 50%;
+  position: absolute;
+
+}
+
+.wrapper > .field > .card > .card-body > .progressForm .progress .wrapperMarker .wrapperBall .ballMarkerTwo {
+  width: 15px;
+  height: 15px;
+
+  background-color: var(--primaryColor);
+  border-radius: 50%;
+  position: absolute;
+
+  left: 48.33%;
+}
+
+.wrapper > .field > .card > .card-body > .progressForm .progress .wrapperMarker .wrapperBall .ballMarkerThree {
+  width: 15px;
+  height: 15px;
+
+  background-color: var(--primaryColor);
+  border-radius: 50%;
+  position: absolute;
+
+  left: 86.66%;
+}
+

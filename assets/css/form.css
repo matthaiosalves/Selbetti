@@ -1,0 +1,8 @@
+.wrapper > .field > .card {
+  background-color: var(--unnamed-color-f3f3f3);
+
+  /* box-shadow: 0px 3px 30px var(--shadow); */
+
+  border: 1px solid red;
+  height:644px;
+}
