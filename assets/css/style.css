@@ -1,6 +1,7 @@
 @import url('color.css');
 @import url('form.css');
 @import url('progress.css');
+@import url('button.css');
 
 * {
   box-sizing: border-box;
@@ -26,8 +27,6 @@ body {
 .wrapper > .cardCongratulation > .card {
   background-color: var(--secondaryColor);
   margin-top: -154px;
-
-  /* box-shadow: 0px 3px 30px var(--shadow); */
 
   height:155px;
   border: none;

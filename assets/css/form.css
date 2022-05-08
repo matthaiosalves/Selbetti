@@ -1,10 +1,14 @@
 .wrapper > .field > .card {
   background-color: var(--unnamed-color-f3f3f3);
 
-  /* box-shadow: 0px 3px 30px var(--shadow); */
-
-  border: 1px solid red;
+  box-shadow: 0px 3px 30px var(--shadow);
   height:644px;
+  border: none;
+}
+
+.wrapper > .field > .card > .card-body .wrapperForm {
+  margin: auto;
+  max-width: 325px;
 }
 
 .bgTextForm {
@@ -17,6 +21,15 @@
   height: 46px;
 }
 
+.wrapper > .field > .card > .card-body .phoneInputDDD,
+.wrapper > .field > .card > .card-body .phoneInputDDI {
+  width: 62px;
+}
+
+.wrapper > .field > .card > .card-body .phoneInputNumber{
+  width: 187px;
+}
+
 .wrapper > .field > .card > .card-body .form-control:focus{
   box-shadow: none;
 }
@@ -25,4 +38,8 @@
   background-color: var(--greyColor);
   border: 1px solid #E5E5E5;
   border-radius: 2px;
+}
+
+.wrapper > .field > .card > .card-body .phoneInput {
+  margin-top: 32px;
 }
