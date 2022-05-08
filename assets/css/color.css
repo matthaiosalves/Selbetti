@@ -1,9 +1,12 @@
 :root {
   --primaryColor:#C83D2F;
   --secondaryColor:#F9F9F9;
+  --tertiaryColor:#9C9B99;
+  --quartenaryColor:#707070;
   
   --unnamed-color-f3f3f3: #F3F3F3;
-  --quartenaryColor:#707070;
+
+  --greyColor:#EEEEEE;
 
   --shadow:#00000029;
 }

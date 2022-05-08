@@ -6,3 +6,23 @@
   border: 1px solid red;
   height:644px;
 }
+
+.bgTextForm {
+  color: var(--tertiaryColor) !important;
+}
+
+.wrapper > .field > .card > .card-body .form-control {
+  border: 1px solid #E5E5E5;
+  border-radius: 2px;
+  height: 46px;
+}
+
+.wrapper > .field > .card > .card-body .form-control:focus{
+  box-shadow: none;
+}
+
+.wrapper > .field > .card > .card-body .input-group-text {
+  background-color: var(--greyColor);
+  border: 1px solid #E5E5E5;
+  border-radius: 2px;
+}
