@@ -51,7 +51,7 @@
   position: absolute;
   top: 9%;
   text-align: center;
-  line-height: 11px;
+  line-height: 10px;
   letter-spacing: 0px;
   font-size:10px;
   color: var(--quartenaryColor);
@@ -115,6 +115,13 @@
 
   .wrapper > .field > .card > .card-body > .progressForm .progress .wrapperMarker .wrapperBall:nth-child(3) p {
     left: 78%;
+  }
+}
+
+@media (max-width: 370px) {
+  .responsiveMarker {
+    position: absolute !important;
+    top: 7% !important;
   }
 }
 
