@@ -59,6 +59,22 @@ body {
   margin: 0 auto;
 }
 
+.wrapper > .cardPlan > .card > .card-body > .info .col-4 {
+  position: relative;
+}
+
+.wrapper > .cardPlan > .card > .card-body > .info .one:after,
+.wrapper > .cardPlan > .card > .card-body > .info .two:after {
+  content: " ";
+  position: absolute;
+  border-left: 1px solid var(--greyColor500);
+  top: 0%;
+  right: 0;
+  height: 38px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .wrapper > .cardPlan > .card > .card-body > .info h5 {
   color: var(--primaryColor);
   letter-spacing: 0px;

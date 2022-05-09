@@ -47,14 +47,60 @@
   left: 83.66%;
 }
 
+.wrapper > .field > .card > .card-body > .progressForm .progress .wrapperMarker .wrapperBall p {
+  position: absolute;
+  top: 9%;
+  text-align: center;
+  line-height: 11px;
+  letter-spacing: 0px;
+  font-size:10px;
+  color: var(--quartenaryColor);
+  font-weight: normal;
+}
+
+.wrapper > .field > .card > .card-body > .progressForm .progress .wrapperMarker .wrapperBall:nth-child(1) p {
+  left: 8.5%; 
+}
+
+.wrapper > .field > .card > .card-body > .progressForm .progress .wrapperMarker .wrapperBall:nth-child(2) p {
+  left: 43%;
+}
+
+.wrapper > .field > .card > .card-body > .progressForm .progress .wrapperMarker .wrapperBall:nth-child(3) p {
+  left: 81%;
+}
+
+@media (max-width: 425px) {
+  .wrapper > .field > .card > .card-body > .progressForm > .progress {
+    max-width: 235px;
+  }
+
+  .wrapper > .field > .card > .card-body > .progressForm .progress .wrapperMarker .wrapperBall .ballMarkerThree {
+    left: 78.66%;
+  }
+}
+
 @media (max-width: 450px) {
   .field {
     padding-right: 4px;
     padding-left: 4px;
   }
 
-  .wrapper > .field > .card > .card-body > .progressForm > .progress {
-    max-width: 235px;
+}
+
+@media (max-width: 375px) {
+  .wrapper > .field > .card > .card-body > .progressForm .progress .wrapperMarker .wrapperBall .ballMarkerThree {
+    left: 81.66%;
   }
 }
+
+@media (max-width: 320px) {
+  .wrapper > .field > .card > .card-body > .progressForm .progress .wrapperMarker .wrapperBall .ballMarkerThree {
+    left: 84.66%;
+  }  
+}
+
+
+
+
 

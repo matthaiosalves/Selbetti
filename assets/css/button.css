@@ -1,0 +1,26 @@
+.wrapper > .field > .card > .card-body > .segment > .buttonBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 21px;
+}
+
+.wrapper > .field > .card > .card-body > .segment > .buttonBox .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+}
+
+.wrapper > .field > .card > .card-body > .segment > .buttonBox .btn:nth-child(1) {
+  width: 100px;
+  height: 53px;
+  border: 1px solid var(--quartenaryColor);
+}
+
+.wrapper > .field > .card > .card-body > .segment > .buttonBox .btn:nth-child(2) {
+  width: 214px;
+  height: 53px;
+  border: 1px solid var(--primaryColor);
+}
