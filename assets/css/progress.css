@@ -1,3 +1,7 @@
+.wrapper > .field > .card > .card-body > .progressForm {
+  margin-top: 32px;
+}
+
 .wrapper > .field > .card > .card-body > .progressForm > .progress {
   height: 3px;
   max-width: 356px;
