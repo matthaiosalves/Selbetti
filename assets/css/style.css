@@ -33,6 +33,8 @@ body {
 
   height:155px;
   border: none;
+
+  border-radius: 0;
 }
 
 .wrapper > .cardPlan > .card > .card-body .card-title, 

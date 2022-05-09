@@ -92,14 +92,6 @@
   }
 }
 
-@media (max-width: 450px) {
-  .field {
-    padding-right: 4px;
-    padding-left: 4px;
-  }
-
-}
-
 @media (max-width: 375px) {
   .wrapper > .field > .card > .card-body > .progressForm .progress .wrapperMarker .wrapperBall .ballMarkerThree {
     left: 81.66%;
