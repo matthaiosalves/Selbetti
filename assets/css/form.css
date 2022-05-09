@@ -37,3 +37,8 @@
 .wrapper > .field > .card > .card-body .phoneInput {
   margin-top: 32px;
 }
+
+.fontTextForm {
+  font-size: 14px !important;
+  line-height: 16px !important; 
+}
