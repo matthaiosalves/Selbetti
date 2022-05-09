@@ -113,7 +113,7 @@ body {
   background-color: var(--unnamed-color-f3f3f3);
 
   box-shadow: 0px 3px 30px var(--shadow);
-  height:644px;
+  min-height:644px;
   border: none;
 
   display:flex;

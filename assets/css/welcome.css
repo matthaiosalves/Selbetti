@@ -24,3 +24,57 @@
   text-align: center;
   margin-top: 21px;
 }
+
+.wrapper > .field > .card > .card-body > .infoWelcome > .cardPlan > .card {
+  background-color: var(--unnamed-color-f3f3f3);
+  border: none;
+}
+
+.wrapper > .field > .card > .card-body > .infoWelcome > .cardPlan > .card > .card-body .card-text {
+  text-align: center;
+  color: var(--quartenaryColor);
+  font-size: 16px;
+
+  margin-top: 40px;
+}
+
+
+.wrapper > .field > .card > .card-body > .infoWelcome > .cardPlan > .card > .card-body > .info {
+  max-width: 355px;
+  margin: 0 auto;
+}
+
+.wrapper > .field > .card > .card-body > .infoWelcome > .cardPlan > .card > .card-body > .info .col-4 {
+  position: relative;
+}
+
+.wrapper > .field > .card > .card-body > .infoWelcome > .cardPlan > .card > .card-body > .info .one:after,
+.wrapper > .field > .card > .card-body > .infoWelcome > .cardPlan > .card > .card-body > .info .two:after {
+  content: " ";
+  position: absolute;
+  border-left: 1px solid var(--greyColor500);
+  top: 0%;
+  right: 0;
+  height: 38px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.wrapper > .field > .card > .card-body > .infoWelcome > .cardPlan > .card > .card-body > .info h5 {
+  color: var(--primaryColor);
+  letter-spacing: 0px;
+
+  text-align: center;
+
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.wrapper > .field > .card > .card-body > .infoWelcome > .cardPlan > .card > .card-body > .info p {
+  color: var(--quartenaryColor);
+
+  letter-spacing: 0px;
+  text-align: center;
+
+  font-size: 11px;
+}
