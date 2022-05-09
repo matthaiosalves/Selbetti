@@ -8,8 +8,12 @@
 
   --greyColor:#EEEEEE;
   --greyColor500:#E5E5E5;
+  --greyColor600:#878787;
 
   --shadow:#00000029;
+
+  --white:#FFFFFF;
+  
 }
 
 
@@ -28,4 +32,8 @@
 
 .bgTextForm {
   color: var(--tertiaryColor) !important;
+}
+
+.bgButtonGrey {
+  background-color: var(--quartenaryColor) !important;
 }
