@@ -13,11 +13,11 @@
 
 
 .bg-selbetti {
-  background-color: var(--primaryColor);
+  background-color: var(--primaryColor) !important;
 }
 
 .bgTextSelbetti {
-  color: var(--primaryColor);
+  color: var(--primaryColor) !important;
 }
 
 .bgTextForm {

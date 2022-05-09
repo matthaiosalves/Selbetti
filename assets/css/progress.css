@@ -19,7 +19,7 @@
   width: 15px;
   height: 15px;
 
-  background-color: var(--primaryColor);
+  background-color: var(--quartenaryColor);
   border-radius: 50%;
   position: absolute;
 
@@ -29,7 +29,7 @@
   width: 15px;
   height: 15px;
 
-  background-color: var(--primaryColor);
+  background-color: var(--quartenaryColor);
   border-radius: 50%;
   position: absolute;
 
@@ -40,10 +40,21 @@
   width: 15px;
   height: 15px;
 
-  background-color: var(--primaryColor);
+  background-color: var(--quartenaryColor);
   border-radius: 50%;
   position: absolute;
 
-  left: 86.66%;
+  left: 83.66%;
+}
+
+@media (max-width: 450px) {
+  .field {
+    padding-right: 4px;
+    padding-left: 4px;
+  }
+
+  .wrapper > .field > .card > .card-body > .progressForm > .progress {
+    max-width: 235px;
+  }
 }
 

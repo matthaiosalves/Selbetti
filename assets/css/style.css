@@ -3,6 +3,7 @@
 @import url('progress.css');
 @import url('segment.css');
 @import url('loading.css');
+@import url('welcome.css');
 @import url('button.css');
 
 * {
@@ -110,11 +111,13 @@ body {
     padding: 4px;
   }
 
-  .wrapper > .cardPlan > .card {
+  .wrapper > .cardPlan > .card,
+  .wrapper > .cardCongratulation > .card {
     margin-top: -158px;
   }
 
-  .wrapper > .cardPlan > .card > .card-body .card-title {
+  .wrapper > .cardPlan > .card > .card-body .card-title,
+  .wrapper > .cardCongratulation > .card > .card-body .card-title {
     font-size: 22px;
   }
 }
