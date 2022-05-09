@@ -1,0 +1,65 @@
+
+.wrapper > .field > .card > .card-body > .segment  {
+  max-width: 325px;
+  margin: 0 auto;
+}
+
+.wrapper > .field > .card > .card-body > .segment .container .row {
+  display: flex;
+  gap: 12px;
+}
+
+.wrapper > .field > .card > .card-body > .segment > .card-title {
+text-align: center;
+font-size: 16px;
+letter-spacing: 0px;
+margin-top: 20px;
+}
+.wrapper > .field > .card > .card-body > .segment > .container {
+  margin-top: 21px;
+}
+
+.wrapper > .field > .card > .card-body > .segment .card {
+  max-width: 100px;
+  height: 117px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.wrapper > .field > .card > .card-body > .segment .card:last-child {
+  max-width: 213px;
+  height: 117px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.wrapper > .field > .card > .card-body > .segment .card:active {
+  border: 1px solid var(--primaryColor);
+}
+
+.wrapper > .field > .card > .card-body > .segment .card img {
+  max-width: 51px;
+  height: 53px;
+  margin-bottom: 4px;
+}
+
+.wrapper > .field > .card > .card-body > .segment .card > .card-text {
+font-size: 12px;
+text-align: center;
+color: var(--quartenaryColor);
+line-height: 14px;
+margin-top: 4px;
+}
+
+
+

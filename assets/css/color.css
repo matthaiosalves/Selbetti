@@ -10,3 +10,12 @@
 
   --shadow:#00000029;
 }
+
+
+.bg-selbetti {
+  background-color: var(--primaryColor);
+}
+
+.bgTextForm {
+  color: var(--tertiaryColor) !important;
+}

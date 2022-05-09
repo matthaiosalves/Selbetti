@@ -1,6 +1,7 @@
 @import url('color.css');
 @import url('form.css');
 @import url('progress.css');
+@import url('segment.css');
 @import url('button.css');
 
 * {
@@ -76,7 +77,7 @@ body {
 }
 
 
-/*Second Stage*/
+/*Card Congratulations*/
 .wrapper > .cardCongratulation > .card > .card-body > .info p {
   color: var(--quartenaryColor);
 

@@ -11,10 +11,6 @@
   max-width: 325px;
 }
 
-.bgTextForm {
-  color: var(--tertiaryColor) !important;
-}
-
 .wrapper > .field > .card > .card-body .form-control {
   border: 1px solid #E5E5E5;
   border-radius: 2px;
@@ -26,8 +22,13 @@
   width: 62px;
 }
 
+.wrapper > .field > .card > .card-body .phoneInputDDD {
+  margin-left: 7px;
+}
+
 .wrapper > .field > .card > .card-body .phoneInputNumber{
-  width: 187px;
+  width: 194px;
+  margin-left: 14px;
 }
 
 .wrapper > .field > .card > .card-body .form-control:focus{
