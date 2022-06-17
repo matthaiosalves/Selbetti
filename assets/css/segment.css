@@ -49,6 +49,10 @@ margin-top: 50px;
   border: 1px solid var(--primaryColor);
 }
 
+#needs.active {
+  border: 1px solid var(--primaryColor);
+}
+
 .wrapper > .field > .card > .card-body > .segment .card img {
   max-width: 51px;
   height: 53px;
